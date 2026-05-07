@@ -1,7 +1,10 @@
 {
-  "name": "pwa-test",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "echo 'no build needed'"
-  }
+  "cleanUrls": true,
+  "outputDirectory": ".",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
 }
