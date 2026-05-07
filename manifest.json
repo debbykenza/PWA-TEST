@@ -3,7 +3,7 @@
     "name": "Progressive Web App Example",
     "icons": [
         {
-            "src": "icon-192.png",
+            "src": "logo.png",
             "type": "image/png",
             "sizes": "192x192 72x72 96x96 128x128"
         }
